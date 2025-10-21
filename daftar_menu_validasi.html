@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Form Pemesanan Handphone Mahfuz Cell</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 30px;
+    }
+    form {
+        max-width: 500px;
+    }
+    label {
+        font-weight: bold;
+        display: block;
+        margin-top: 12px;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 4px;
+        box-sizing: border-box;
+    }
+    fieldset {
+        margin-top: 16px;
+    }
+    .error {
+        color: red;
+        font-size: 13px;
+        margin-top: 2px;
+    }
+    .success {
+        color: green;
+        font-weight: bold;
+        margin-top: 12px;
+    }
+</style>
+<script>
+    function formatRupiah(angka) {
+        return angka.toLocaleString('id-ID', { style: 'currency', currency: 'IDR' });
+    }
+
+    function hitung(ele) {
+        var total = document.getElementById('total').getAttribute('data-total');
+        total = (total ? parseInt(total) : 0);
+        var harga = parseInt(ele.value);
+
+        if (ele.checked) total += harga;
+        else if (total > 0) total -= harga;
+
+        document.getElementById('total').value = formatRupiah(total);
+        document.getElementById('total').setAttribute('data-total', total);
+    }
+
+    function tampilError(id, pesan) {
+        document.getElementById("error-" + id).textContent = pesan;
+    }
+
+    function validasiForm(event) {
+        event.preventDefault();
+        let valid = true;
+        const nama = document.getElementById("nama").value.trim();
+        const nohp = document.getElementById("nohp").value.trim();
+        const total = parseInt(document.getElementById('total').getAttribute('data-total'));
+        const hasil = document.getElementById("hasil");
+
+        tampilError("nama", "");
+        tampilError("nohp", "");
+        tampilError("menu", "");
+        hasil.textContent = "";
+
+        if (nama === "") {
+            tampilError("nama", "Nama harus diisi!");
+            valid = false;
+        }
+
+        if (nohp === "") {
+            tampilError("nohp", "Nomor HP harus diisi!");
+            valid = false;
+        } else if (isNaN(nohp)) {
+            tampilError("nohp", "Nomor HP harus berupa angka!");
+            valid = false;
+        } else if (nohp.length < 10 || nohp.length > 13) {
+            tampilError("nohp", "Nomor HP harus 10–13 digit!");
+            valid = false;
+        }
+
+        const checkbox = document.querySelectorAll("input[type='checkbox']");
+        let dipilih = false;
+        for (let i = 0; i < checkbox.length; i++) {
+            if (checkbox[i].checked) {
+                dipilih = true;
+                break;
+            }
+        }
+        if (!dipilih) {
+            tampilError("menu", "Pilih minimal satu handphone!");
+            valid = false;
+        }
+
+        if (valid) {
+            hasil.textContent = "✅ Pesanan berhasil dikirim!\nNama: " + nama +
+                "\nNomor HP: " + nohp +
+                "\nTotal Bayar: " + formatRupiah(total);
+            hasil.className = "success";
+
+            document.getElementById("formPesan").reset();
+            document.getElementById("total").value = "Rp 0";
+            document.getElementById("total").setAttribute('data-total', 0);
+        }
+    }
+</script>
+</head>
+<body>
+<h1>Form Pemesanan Handphone Mahfuz Cell</h1>
+
+<form id="formPesan" onsubmit="validasiForm(event)">
+    <label>Nama Pembeli:</label>
+    <input type="text" id="nama" placeholder="Masukkan nama lengkap">
+    <div class="error" id="error-nama"></div>
+
+    <label>Nomor HP:</label>
+    <input type="text" id="nohp" placeholder="Masukkan nomor HP (10–13 digit)">
+    <div class="error" id="error-nohp"></div>
+
+    <fieldset>
+        <legend><strong>Pilih Menu Handphone:</strong></legend>
+        <label><input type="checkbox" value="20249000" onclick="hitung(this)"> Samsung Galaxy S25 Ultra 5G - Rp 20.249.000</label><br>
+        <label><input type="checkbox" value="15699000" onclick="hitung(this)"> Samsung Galaxy S25+ 5G - Rp 15.699.000</label><br>
+        <label><input type="checkbox" value="13749000" onclick="hitung(this)"> Samsung Galaxy S25 5G - Rp 13.749.000</label><br>
+        <label><input type="checkbox" value="18999000" onclick="hitung(this)"> Samsung Galaxy Z Fold6 - Rp 18.999.000</label>
+        <div class="error" id="error-menu"></div>
+    </fieldset>
+
+    <hr>
+    <strong>Total Bayar:</strong>
+    <input id="total" type="text" readonly data-total="0" value="Rp 0"><br><br>
+
+    <input type="submit" value="Kirim Pesanan">
+    <input type="reset" value="Reset">
+
+    <div id="hasil"></div>
+</form>
+</body>
+</html>
