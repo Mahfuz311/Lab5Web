@@ -34,7 +34,7 @@ Buat folder bernama `Lab5Web` Di dalam folder tersebut, buat file HTML baru deng
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output1.png">
 
 `document.write()` digunakan untuk menampilkan teks langsung pada halaman web.
 
@@ -48,11 +48,11 @@ Buat folder bernama `Lab5Web` Di dalam folder tersebut, buat file HTML baru deng
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode2.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode2.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output2.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output2.png">
 
 `alert()` menampilkan pesan peringatan.
 
@@ -62,11 +62,11 @@ Code:
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode3.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode3.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output3.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output3.png">
 
 ---
 
@@ -74,19 +74,19 @@ Code:
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode4.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode4.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.png">
 
 Lalu saya memasukan Nama.
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.1.png">
 
 **Dan hasilnya seperti ini:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.2.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output4.2.png">
 
 `prompt()` meminta input dari pengguna.
 
@@ -96,11 +96,11 @@ Lalu saya memasukan Nama.
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode5.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode5.png">
 
 **Outputnya**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output5.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output5.png">
 
 ---
 
@@ -112,15 +112,15 @@ Contoh Operasi dan Logika Sederhana:
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode6.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode6.png">
 
 **Outputnya**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output6.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output6.png">
 
 Lalu Klik Tombol _`arithmetic`_:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output6.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output6.1.png">
 
 📝 Penjelasan:
 
@@ -134,21 +134,21 @@ Lalu Klik Tombol _`arithmetic`_:
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode7.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode7.png">
 
 **Outputnya**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.png">
 
 Kita Langsung Klik Tombol Ok:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.1.png">
 
 Hasilnya "Tidak Lulus" Karena Nilai yang Saya Masukan Adalah 0, `(nilai >= 60)` nilai harus lebih besar dari 0.
 
 Lalu Saya Masukan Angka 80:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.2.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output7.2.png">
 
 Hasilnya "Lulus" Karena Nilainya Lebih Besar Dari 60.
 
@@ -158,21 +158,21 @@ Hasilnya "Lulus" Karena Nilainya Lebih Besar Dari 60.
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode8.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode8.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.png">
 
 Selanjutnya Saya Klik Tombol `Switch`:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.1.png">
 
 Kita Diminta Untuk Memasukkan Angka 1-5.
 
 Disini Saya Memasukkan Angka 3:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.2.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output8.2.png">
 
 Hasilnya Muncul "Bilangan Tiga" Karena yang Saya Memasukkan Angka 3.
 
@@ -184,15 +184,15 @@ Hasilnya Muncul "Bilangan Tiga" Karena yang Saya Memasukkan Angka 3.
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode9.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode9.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output9.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output9.png">
 
 Disni Muncul Form dimana Kita Diminta Untuk Memasukan Angka Bilangan Genap atau Bilangan Ganjil.
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output9.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output9.1.png">
 
 Saya Memasukan Angka 16 dan Sistem akan Otomatis Membaca Bahwa itu Bilangan Genap dan Sebaliknya, kalau Saya Memasukan Angka 11 Maka Sistem Akan Membaca Bahwa itu Adalah Bilangan Ganjil.
 
@@ -202,15 +202,15 @@ Saya Memasukan Angka 16 dan Sistem akan Otomatis Membaca Bahwa itu Bilangan Gena
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode10.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode10.png">
 
 **Outputnya**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output10.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output10.png">
 
 Saya Klik Latar Belakang Hijau dan Teks Kuning:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output10.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output10.1.png">
 
 Maka Hasilnya Akan Merubah Warna Background dan Warna Tulisannya.
 
@@ -222,15 +222,15 @@ Maka Hasilnya Akan Merubah Warna Background dan Warna Tulisannya.
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode11.png" style="width:50%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode11.png">
 
 **Outputnya**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output11.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output11.png">
 
 Dan Bisa Menjumlahkan Otomatis Jika Kita Memilih lebih dari 1 Produk:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output11.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output11.1.png">
 
 ---
 
@@ -242,19 +242,19 @@ Disini Saya Menggunakan Form Pemesanan HandPhone Seperti yang Di Atas.
 
 Code:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode12.png" style="width:80%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/vscode12.png">
 
 **Outputnya:**
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.png">
 
 Mengisi Form:
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.3.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.3.png">
 
 Validasi Form (Tugas)
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.2.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.2.png">
 
 Jika pengguna:
 
@@ -262,7 +262,7 @@ Jika pengguna:
 - Nomor HP bukan angka atau kurang dari 10 digit → “Nomor HP harus 10–13 digit!”
 - Tidak memilih handphone → “Pilih minimal satu handphone!”
 
-<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.1.png" style="width:60%; height:auto;">
+<img src="https://github.com/Mahfuz311/Lab5Web/blob/d39b4099683cba931c84ab9935290aa5d33ffa31/screenshot/output12.1.png">
 
 Jika Semua Benar Muncul Pesan Sukes.
 
